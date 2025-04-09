@@ -6,12 +6,12 @@ int main()
 
     for (int i = 1; i <= n; i++)
     {
-        printf("%d\n", i);
         if (i == 5)
         {
-            printf("Got the number - %d", i);
-            break;  //when i will be 5 the loop will be end
+            printf("skip the value\n");
+            continue; // when the value of i will be 5, loop will skip the value
         }
+        printf("%d\n", i);
     }
 
     return 0;
